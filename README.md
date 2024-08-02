@@ -20,7 +20,9 @@ But the code has implemented to connect prod API via .env
 &emsp; ``npm install``
 
 
-4. Create a ``.env`` file in the root of your project and add the following environment variables:
+4. Create a ``.env`` file in the root of your project and add the following environment variables:\
+   (This step is optional since defualt urls are defined in ``utils/api.ts``) 
+   
 ```
 REACT_APP_ENV=mock
 REACT_APP_SEARCH_API_ENDPOINT_MOCK=<mock_search_api_endpoint>
