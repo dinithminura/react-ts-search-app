@@ -3,6 +3,12 @@
 ## Description
 This React application provides a search bar with typeahead suggestions and displays search results.
 
+**SPECIAL NOTE: \
+Since API endpoints are pointed to static mock apis, suggestions and resutls will always become for input 'child'\
+To see the happy path, type 'child' on search bar and do the feature testing.\
+But the code has implemented to connect prod API via .env
+
+
 ## Installation
 1. Clone the repository:
 
