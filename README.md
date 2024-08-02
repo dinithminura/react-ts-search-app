@@ -4,12 +4,17 @@
 This React application provides a search bar with typeahead suggestions and displays search results.
 
 ## Installation
-Clone the repository:
+1. Clone the repository:
 
-``git clone https://github.com/dinithminura/react-ts-search-app.git``\
-``cd react-ts-search-app``
+&emsp; ``git clone https://github.com/dinithminura/react-ts-search-app.git``\
+&emsp; ``cd react-ts-search-app``
 
-Create a ``.env`` file in the root of your project and add the following environment variables:
+2. Install dependencies:
+   
+&emsp; ``npm install``
+
+
+4. Create a ``.env`` file in the root of your project and add the following environment variables:
 ```
 REACT_APP_ENV=mock
 REACT_APP_SEARCH_API_ENDPOINT_MOCK=<mock_search_api_endpoint>
