@@ -6,7 +6,7 @@ This React application provides a search bar with typeahead suggestions and disp
 ## Installation
 Clone the repository:
 
-``git clone https://github.com/dinithminura/react-search-app.git``\
+``git clone https://github.com/dinithminura/react-ts-search-app.git``\
 ``cd react-search-app``
 
 Create a ``.env`` file in the root of your project and add the following environment variables:
