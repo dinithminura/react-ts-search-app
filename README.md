@@ -3,6 +3,12 @@
 ## Description
 This React application provides a search bar with typeahead suggestions and displays search results.
 
+**SPECIAL NOTE: \
+Since API endpoints are pointed to static mock apis, suggestions and resutls will always become for input 'child'\
+To see the happy path, type 'child' on search bar and do the feature testing.\
+But the code has implemented to connect prod API via .env
+
+
 ## Installation
 1. Clone the repository:
 
@@ -14,7 +20,9 @@ This React application provides a search bar with typeahead suggestions and disp
 &emsp; ``npm install``
 
 
-4. Create a ``.env`` file in the root of your project and add the following environment variables:
+4. Create a ``.env`` file in the root of your project and add the following environment variables:\
+   (This step is optional since defualt urls are defined in ``utils/api.ts``) 
+   
 ```
 REACT_APP_ENV=mock
 REACT_APP_SEARCH_API_ENDPOINT_MOCK=<mock_search_api_endpoint>
