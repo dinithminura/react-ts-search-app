@@ -62,7 +62,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ setResults }) => {
 
     const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
         if (e.key === 'Enter') {
-            handleSuggestionClick(suggestions[activeSuggestionIndex])
+            handleSearch(suggestions[activeSuggestionIndex])
         } else if (e.key === 'ArrowDown') {
             if (activeSuggestionIndex < suggestions.length - 1) {
                 setActiveSuggestionIndex(activeSuggestionIndex + 1);
